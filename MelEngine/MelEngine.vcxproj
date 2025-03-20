@@ -189,6 +189,27 @@
       <Project>{371b9fa9-4c90-4ac6-a123-aced756d6c77}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\GraphicAPI.h" />
+    <ClInclude Include="Code\OS.h" />
+    <ClInclude Include="Code\MelEngine.h" />
+    <ClInclude Include="Code\Window\Windows\WindowsWindowCreater.h" />
+    <ClInclude Include="Code\GraphicAPI\DirectX12\DirectX12.h" />
+    <ClInclude Include="Code\Support\Math\Vector.h" />
+    <ClInclude Include="Code\OSAPI\Windows\DebugSupport\ErrorProcess.h" />
+    <ClInclude Include="Code\Struct\Color.h" />
+    <ClInclude Include="Code\Struct\Values.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\MelEngine.cpp" />
+    <ClCompile Include="Code\Support\Math\Vector.cpp" />
+    <ClCompile Include="Code\Window\Windows\WindowsWindowCreater.cpp" />
+    <ClCompile Include="Code\GraphicAPI\DirectX12\DirectX12.cpp" />
+    <ClCompile Include="Code\OSAPI\Windows\DebugSupport\ErrorProcess.cpp" />
+    <ClCompile Include="Code\Struct\Color.cpp" />
+    <ClCompile Include="Code\Struct\Values.cpp" />
+    <ClCompile Include="WindowsWindowCreater.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
